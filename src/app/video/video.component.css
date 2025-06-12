@@ -1,0 +1,22 @@
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem; /* Adds spacing on all sides */
+  flex-direction: column;
+}
+
+.responsive-video {
+  width: 100%;
+  max-width: 1280px;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 4px 20px rgba(138, 68, 68, 0.15);
+}
+
+/* Optional: Adjust padding specifically for smaller screens */
+@media (max-width: 768px) {
+  .video-container {
+    padding: 1rem; /* Less padding on mobile */
+  }
+}

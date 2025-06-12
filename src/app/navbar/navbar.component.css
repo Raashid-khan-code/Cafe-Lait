@@ -1,0 +1,60 @@
+/* Background Color Variable (Optional) */
+.bg-light-top {
+  background-color: #c2b19c;
+}
+
+/* Logo */
+.logo-container {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.logo-img {
+  max-height: 150px;
+  height: auto;
+}
+
+@media (max-width: 576px) {
+  .logo-img {
+    max-height: 100px;
+  }
+}
+
+/* Icons Section */
+.icon-container app-login,
+.icon-container app-cart {
+  display: flex;
+  align-items: center;
+}
+
+/* Navbar */
+.custom-navbar {
+  background-color: #c2b19c;
+  border-bottom: 1px solid #584910;
+}
+
+.navbar-nav {
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.nav-link {
+  font-family: 'Lora', serif;
+  font-size: 1.2rem;
+  color: #584910;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #1b1b1b;
+}
+
+/* Nav line */
+.nav-line {
+  width: 100%;
+  margin: auto;
+  border: #25252596 1px solid;
+  border-radius: 5px;
+}

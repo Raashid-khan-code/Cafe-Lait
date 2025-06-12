@@ -1,0 +1,98 @@
+/* Form border and modal background */
+.coffee-modal {
+  background-color: #fdf6f0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(108, 78, 55, 0.2);
+}
+
+/* Inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 8px 0;
+  border: 1px solid #c2a98c;
+  border-radius: 6px;
+  background-color: #fffdf9;
+}
+
+/* Login Button */
+button[type=submit] {
+  background-color: #6b4f3b;
+  color: #fff;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 3px;
+}
+
+a{
+  text-decoration: none;
+}
+
+button[type=submit]:hover {
+  background-color: #5a3e2b;
+}
+
+/* Cancel Button */
+.cancelbtn {
+  background-color: #a0522d;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  margin-right: 8px;
+}
+
+.cancelbtn:hover {
+  background-color: #8b4513;
+}
+
+/* Container Padding */
+.container {
+  padding: 16px;
+  border-radius:12px 12px 0 0 ;
+}
+
+/* Form Footer Section */
+.coffee-footer {
+  background-color: #f4e9df;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0 0 12px 12px;
+}
+
+/* Forgot password */
+span.psw {
+  padding-top: 8px;
+  font-size: 0.9rem;
+}
+
+/* Media Queries */
+@media screen and (max-width: 300px) {
+  .cancelbtn {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  span.psw {
+    display: block;
+    float: none;
+    text-align: center;
+  }
+}
+
+/* Base body font (fallback for anything not overridden) */
+body {
+  font-family: 'Lora', serif;
+}
+
+/* Headings use Playfair Display */
+h1, h2, h3, h4, h5, h6, .modal-title {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Paragraphs and span-based content */
+p, label, input, span, button, a {
+  font-family: 'Lora', serif;
+}

@@ -1,0 +1,39 @@
+<div class="container-fluid p-0">
+
+  <!-- Header Row: Logo Center, Icons Right -->
+  <div class="d-flex justify-content-between align-items-center bg-light-top py-2 px-3">
+    
+    <!-- Left Spacer -->
+    <div class="flex-grow-1 d-none d-sm-block"></div>
+
+    <!-- Centered Logo -->
+    <div class="logo-container text-center flex-shrink-0">
+      <a routerLink="/"><img src="assets/logo.png" alt="Cafe Lait Logo" class="logo-img"></a>
+    </div>
+
+    <!-- Right Icons -->
+    <div class="d-flex gap-3 align-items-center icon-container flex-grow-1 justify-content-end">
+      <app-login></app-login>
+      <app-cart></app-cart>
+    </div>
+  </div>
+
+  <!-- Decorative Line -->
+
+  <div  style="background-color: #c2b19c;">
+    <div class="container"> <!-- constrains width and centers properly -->
+      <div class="nav-line"></div>
+    </div>
+  </div>
+
+
+
+  <!-- Navbar Menu -->
+  <nav class="custom-navbar d-flex justify-content-center py-2">
+    <div class="navbar-nav d-flex flex-row flex-wrap justify-content-center gap-4">
+      <a class="nav-link" [routerLink]="[]" [fragment]="'product-grid'">Shop</a>
+      <a class="nav-link" routerLink="/about_us">About Us</a>
+      <a class="nav-link" routerLink="/contact">Contact Us</a>
+    </div>
+  </nav>
+</div>

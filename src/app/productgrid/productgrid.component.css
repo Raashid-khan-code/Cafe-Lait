@@ -1,0 +1,54 @@
+/* Let Bootstrap handle the layout, no fixed width */
+.card {
+  width: 100%;
+  background-color: #f8f5f2;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 20px;
+  
+}
+
+/* Card image */
+.card img {
+  max-height: 400px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+/* Headings with Playfair */
+.card h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  color: #3e2723;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase ;
+}
+
+/* Paragraphs with Lora */
+.card p {
+  font-family: 'Lora', serif;
+  font-size: 1rem;
+  color: #5d4037;
+  margin-bottom: 10px;
+}
+
+/* Button styling */
+.card .btn {
+  background-color: #6d4c41;
+  border: none;
+  color: #fff;
+  font-family: 'Lora', serif;
+  transition: background-color 0.3s ease;
+}
+
+.card .btn:hover {
+  background-color: #4e342e;
+}
+

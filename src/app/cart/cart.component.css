@@ -1,0 +1,23 @@
+.offcanvas{
+  background-color: #fdf6f0;
+}
+
+/* Base body font (fallback for anything not overridden) */
+body {
+  font-family: 'Lora', serif;
+}
+
+/* Headings use Playfair Display */
+h1, h2, h3, h4, h5, h6, .offcanvas-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  font-size: 35px;
+
+}
+
+
+/* Paragraphs and span-based content */
+p, label, input, span, button, a {
+  font-family: 'Lora', serif;
+  font-size: 20px;
+}

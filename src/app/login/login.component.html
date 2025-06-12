@@ -1,0 +1,49 @@
+<!-- Account Icon Button -->
+<button type="button" class="btn bg-transparent" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <i class="bi bi-emoji-smile fs-4 text-dark"></i> <!-- Increased size + made black -->
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content coffee-modal">
+
+      <div class="modal-header border-0">
+        <h1 class="modal-title fs-4" id="exampleModalLabel">Welcome Back</h1>
+        
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <form action="action_page.php" method="post" class="coffee-form">
+          <div class="container border border-bottom-0">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit">Login</button>
+            <div class="form-check mt-3">
+              <input class="form-check-input" type="checkbox" name="remember" id="rememberCheck" checked>
+              <label class="form-check-label" for="rememberCheck">
+                Remember me
+              </label>
+            </div>
+
+          </div>
+
+          <div class="container coffee-footer">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+        </form>
+      </div>
+
+      <div class="modal-footer border-0">
+        <button type="button" class="btn btn-outline-secondary w-100">Don't have an account? Sign Up</button>
+      </div>
+
+    </div>
+  </div>
+</div>
